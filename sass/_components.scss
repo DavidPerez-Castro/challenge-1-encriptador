@@ -1,0 +1,62 @@
+$text-color: white;
+$background-color: #161617;
+
+#btn-encriptar{
+    background-color: #0A3871;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border: none;
+}
+
+#btn-desencriptar{
+    background-color: red;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border: none;
+}
+
+#btn-encriptar:hover {
+    background-color: #FFF8F0;
+    transform: scale(1.1);
+}
+
+#btn-desencriptar:hover {
+    background-color: #FFF8F0;
+    transform: scale(1.1);
+}
+
+#copiar{
+    display: none;
+    background: #D8DFE8;
+    border-radius: 1rem;
+    border: none;
+}
+
+.btn-sn {
+    background-color: transparent;
+    border: none;
+    margin: 0.5rem;
+    i {
+        padding: 0.3rem;
+        font-size: 1.5rem;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+        transition: all .4s ease-in-out;
+        color: #00acee;
+    }
+}
+
+.sn .btn-sn:hover {
+    transform: scale(1.2);
+}
+
+.btn-sn #gt:hover {
+    color: #FFF8F0;
+}
+
+.btn-sn #en:hover {
+    color: #C54430;
+}
+
+.btn-sn #in:hover {
+    color: #0e76a8;
+}
